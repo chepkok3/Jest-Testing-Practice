@@ -7,7 +7,7 @@ class calculator {
   }
 
   static substract(x, y) {
-    if ((x !== 0) & (y === 0)) {
+    if (x !== 0 && y === 0) {
       return 'Result remains ${x}';
     }
     return x - y;
